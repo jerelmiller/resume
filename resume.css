@@ -1,0 +1,105 @@
+body {
+  margin: 0px;
+  font-family: "Avenir";
+  font-size: 9pt;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 24pt;
+}
+
+h2 {
+  font-size: 16pt;
+}
+
+h3 {
+  font-size: 14pt;
+}
+
+header {
+  border-bottom: 1px solid #999;
+}
+
+section {
+  border-bottom: 1px solid #999;
+  padding: 10pt 0;
+}
+
+section:last-child {
+  border-bottom: none;
+}
+
+address {
+  font-style: normal;
+}
+
+ul {
+  margin: 0;
+}
+
+.main-info h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.main-info address {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10pt;
+  padding-bottom: 5pt;
+}
+
+.social-profiles {
+  display: flex;
+}
+
+.social-profile {
+  display: flex;
+  align-items: center;
+  margin-right: 10pt;
+}
+
+.social-profile:last-child {
+  margin-right: 0;
+}
+
+.social-profile img {
+  height: 14pt;
+  width: auto;
+  margin-right: 3pt;
+}
+
+.line-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job {
+  margin-bottom: 5pt;
+}
+
+.job:last-child {
+  margin-bottom: 0;
+}
+
+.job h3 {
+  margin: 0;
+}
+
+.job-location {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-location span {
+  display: inline-block;
+  vertical-align: middle;
+}
